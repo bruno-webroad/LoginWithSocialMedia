@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "34164267573",
+    "firebase_url": "https://escola-wr.firebaseio.com",
+    "project_id": "escola-wr",
+    "storage_bucket": "escola-wr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34164267573:android:9565c17e510cab3f",
+        "android_client_info": {
+          "package_name": "com.escolawr.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34164267573-p3pb6vc3itjltf7fdra4v4t31scqsctq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxqLEdelaqO2H2pIxrtT4ayrctSgopupk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

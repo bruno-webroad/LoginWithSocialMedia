@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginWithFacebookApp.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Button Text="Login com Facebook" VerticalOptions="Center" BackgroundColor="Blue" TextColor="White" Command="{Binding LoginFacebookCommand}" />
+            <Button Text="Login com Google" VerticalOptions="Center" BackgroundColor="Red" TextColor="White" Command="{Binding LoginGoogleCommand}" />
+            <Label Text="{Binding Error}" HorizontalOptions="Center" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
